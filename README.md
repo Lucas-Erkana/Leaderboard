@@ -66,7 +66,7 @@ Here are some features of the page:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Leaderboard live link](https://lucash2022.github.io/Leaderboard/version1.4/dist/)
+[Leaderboard live link](https://lucash2022.github.io/Leaderboard/dist/)
 <br>
 
 
