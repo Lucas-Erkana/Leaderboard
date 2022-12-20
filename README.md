@@ -44,11 +44,9 @@ Project 3:final touches
 Here are some features of the page:
 
 <ul>
-  <li>Type content to be added</li>
-  <li>Select items on the list</li>
-   <li>Add items to listt</li>
-   <li>Edit items in list</li>
-  <li>Delete items from list</li>
+  <li>Type your name</li>
+  <li>Type your score</li>
+  <li>Submit name and score</li>
 </ul>
 
 

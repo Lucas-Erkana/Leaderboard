@@ -1,6 +1,10 @@
-export const refreshButton = document.querySelector('#refresh-button');
-export const submitButton = document.querySelector('.btn-last');
-export const searchBar = document.querySelector('#search-bar');
-export const scoreForm = document.querySelector('form');
-export const scoresList = document.querySelector('#scores-list');
-export const bodyCont = document.querySelector('.body-cont')
+export const data = document.querySelector('.data');
+export const arr = [
+  { name: 'Name:', value: 100 },
+  { name: 'Name:', value: 20 },
+  { name: 'Name:', value: 50 },
+  { name: 'Name:', value: 78 },
+  { name: 'Name:', value: 125 },
+  { name: 'Name:', value: 77 },
+  { name: 'Name:', value: 42 },
+];
