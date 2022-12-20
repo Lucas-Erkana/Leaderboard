@@ -115,7 +115,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n//# sourceURL=webpack://webpack_setup/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_variables_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/variables.js */ \"./src/modules/variables.js\");\n\n\n  _modules_variables_js__WEBPACK_IMPORTED_MODULE_1__.bodyCont.innerHTML =`\n  <h1>Leaderboard</h1>\n    <div class=\"sec-cont\">\n      <section class=\"sec1\">\n        <div class=\"sec1-title\">\n          <h3>Recent scores</h3>\n          <button>Refresh</button>\n        </div>\n        <ul>\n          <li>\n            <p>Name:</p>\n            <p>100</p>\n          </li>\n          <li class=\"colored\">\n            <p>Name:</p>\n            <p>20</p>\n          </li>\n          <li>\n            <p>Name:</p>\n            <p>50</p>\n          </li>\n          <li class=\"colored\">\n            <p>Name:</p>\n            <p>78</p>\n          </li>\n          <li>\n            <p>Name:</p>\n            <p>125</p>\n          </li>\n          <li class=\"colored\">\n            <p>Name:</p>\n            <p>77</p>\n          </li>\n          <li>\n            <p>Name:</p>\n            <p>42</p>\n          </li>\n        </ul>\n      </section>\n      <section class=\"sec2\">\n        <h3>Add your score</h3>\n        <form action=\"\">\n          <input type=\"text\" placeholder=\"Your name\">\n          <input type=\"text\" placeholder=\"Your score\">\n          <button class=\"btn-last\">Submit</button>\n        </form>\n      </section>\n    </div>\n  `;\n\n\n//# sourceURL=webpack://webpack_setup/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/variables.js":
+/*!**********************************!*\
+  !*** ./src/modules/variables.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"bodyCont\": () => (/* binding */ bodyCont),\n/* harmony export */   \"refreshButton\": () => (/* binding */ refreshButton),\n/* harmony export */   \"scoreForm\": () => (/* binding */ scoreForm),\n/* harmony export */   \"scoresList\": () => (/* binding */ scoresList),\n/* harmony export */   \"searchBar\": () => (/* binding */ searchBar),\n/* harmony export */   \"submitButton\": () => (/* binding */ submitButton)\n/* harmony export */ });\nconst refreshButton = document.querySelector('#refresh-button');\r\nconst submitButton = document.querySelector('.btn-last');\r\nconst searchBar = document.querySelector('#search-bar');\r\nconst scoreForm = document.querySelector('form');\r\nconst scoresList = document.querySelector('#scores-list');\r\nconst bodyCont = document.querySelector('.body-cont')\n\n//# sourceURL=webpack://webpack_setup/./src/modules/variables.js?");
 
 /***/ })
 
