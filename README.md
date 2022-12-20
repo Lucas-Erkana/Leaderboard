@@ -1,8 +1,8 @@
-# Leadership<!---Title of Project-->
+# Leaderboard<!---Title of Project-->
 <a name="readme-top"></a>
 
 
-## Leadership:  <!---Title of Project-->
+## Leaderboard:  <!---Title of Project-->
 
 The "Leaderboard" website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
@@ -36,7 +36,7 @@ Project 3:final touches
     <th style="border: 1px solid black;">Basic Structure</th>
   </tr>
   <tr style="border: 2px solid black;">
-  <td style="border: 1px solid black;"><img src="images/leadershipBasic.jpg" alt="Basic structure" width="550"  height="300" /></td>
+  <td style="border: 1px solid black;"><img src="images/LeaderboardBasic.jpg" alt="Basic structure" width="550"  height="300" /></td>
 
   </tr>
 </table>
@@ -66,7 +66,7 @@ Here are some features of the page:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Leadership live link](https://lucash2022.github.io/Leadership/version1.4/dist/)
+[Leaderboard live link](https://lucash2022.github.io/Leaderboard/version1.4/dist/)
 <br>
 
 
@@ -81,9 +81,9 @@ Here are some features of the page:
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone [https://github.com/Lucash2022/Leadership.git]
+- On the terminal run this command git clone [https://github.com/Lucash2022/Leaderboard.git]
 
-- Go to the repository folder using command prompt cd Leadership
+- Go to the repository folder using command prompt cd Leaderboard
 
 
 - Install the dev dependencies for linters run npm install.
@@ -111,9 +111,9 @@ Clone this repository to your desired folder:
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone https://github.com/Lucash2022/Leadership.git
+- On the terminal run this command git clone https://github.com/Lucash2022/Leaderboard.git
 
-- Go to the repository folder using command prompt cd Leadership
+- Go to the repository folder using command prompt cd Leaderboard
 
 - Install the dev dependencies for linters run npm install.
 
@@ -156,7 +156,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Lucash2022/Leadership/issues).
+Feel free to check the [issues page](https://github.com/Lucash2022/Leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
