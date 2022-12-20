@@ -30,19 +30,16 @@ Project 3:final touches
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Project name<a name="about-project"></a> <!---Project title-->
+# 📖 Leaderboard<a name="about-project"></a> <!---Project title-->
 <table style="border: 2px solid black;">
   <tr>
-    <th style="border: 1px solid black;"Basic Structure<th>
-
-<
+    <th style="border: 1px solid black;">Basic Structure<th>
   </tr>
   <tr style="border: 2px solid black;">
-  <td style="border: 1px solid black;"><img src="images/leadershipBasic.jpg" alt="Basic structure" width="450"  height="300" /></td>
+  <td style="border: 1px solid black;"><img src="images/leadershipBasic.jpg" alt="Basic structure" width="550"  height="300" /></td>
 
   </tr>
 </table>
-**To-do list**  is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack! 
 
 Here are some features of the page:
 
