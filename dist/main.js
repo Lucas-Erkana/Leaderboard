@@ -125,7 +125,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"arr\": () => (/* binding */ arr),\n/* harmony export */   \"data\": () => (/* binding */ data)\n/* harmony export */ });\nconst data = document.querySelector('.data');\nconst arr = [\n  { name: 'Name:', value: 100 , colour:''},\n  { name: 'Name:', value: 20, colour:'colored' },\n  { name: 'Name:', value: 50 , colour:''},\n  { name: 'Name:', value: 78 ,colour:'colored'},\n  { name: 'Name:', value: 125 , colour:''},\n  { name: 'Name:', value: 77,colour:'colored' },\n  { name: 'Name:', value: 42 },\n];\n\n//# sourceURL=webpack://webpack_setup/./src/modules/variables.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"arr\": () => (/* binding */ arr),\n/* harmony export */   \"data\": () => (/* binding */ data)\n/* harmony export */ });\nconst data = document.querySelector('.data');\nconst arr = [\n  { name: 'Name:', value: 100, colour: '' },\n  { name: 'Name:', value: 20, colour: 'colored' },\n  { name: 'Name:', value: 50, colour: '' },\n  { name: 'Name:', value: 78, colour: 'colored' },\n  { name: 'Name:', value: 125, colour: '' },\n  { name: 'Name:', value: 77, colour: 'colored' },\n  { name: 'Name:', value: 42 },\n];\n\n//# sourceURL=webpack://webpack_setup/./src/modules/variables.js?");
 
 /***/ })
 
