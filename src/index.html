@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Lucas' Leaderboard</title>
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+  <header class="head">
+    <h2 class="head-title">A Web Page</h2>
+    <nav class="nav-bar">
+      <i class="fa-sharp fa-solid fa-arrow-left"></i>
+      <i class="fa-sharp fa-solid fa-arrow-right"></i>
+      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-house"></i>
+      <input class="head-para" value = "https://">
+      <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="search" type="text">
+      </div>
+    </nav>
+  </header>
+  <article class="body-cont">
+  
+    <h1>Leaderboard</h1>
+    <div class="sec-cont">
+      <section class="sec1">
+        <div class="sec1-title">
+          <h3>Recent scores</h3>
+          <button>Refresh</button>
+        </div>
+        <ul class='data'>
+            <!-- content  -->
+        </ul>
+        </section>
+        <section class="sec2">
+          <h3>Add your score</h3>
+          <form action="">
+            <input type="text" placeholder="Your name
+            ">
+            <input type="text" placeholder="Your score">
+            <button class="btn-last">Submit</button>
+          </form>
+        </section>
+      </div>
+  </article>
+  <footer></footer>
 </body>
 </html>

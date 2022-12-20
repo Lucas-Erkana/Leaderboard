@@ -44,11 +44,9 @@ Project 3:final touches
 Here are some features of the page:
 
 <ul>
-  <li>Type content to be added</li>
-  <li>Select items on the list</li>
-   <li>Add items to listt</li>
-   <li>Edit items in list</li>
-  <li>Delete items from list</li>
+  <li>Type your name</li>
+  <li>Type your score</li>
+  <li>Submit name and score</li>
 </ul>
 
 
@@ -66,7 +64,7 @@ Here are some features of the page:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Leaderboard live link](https://lucash2022.github.io/Leaderboard/version1.4/dist/)
+[Leaderboard live link](https://lucash2022.github.io/Leaderboard/dist/)
 <br>
 
 
@@ -144,9 +142,8 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- Implement additional pages, which will allow the user to Register
+- Implement send and receive data from API
 
-- Implement additional pages, which will allow the user to Login
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
