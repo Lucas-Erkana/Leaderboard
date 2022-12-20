@@ -142,9 +142,8 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- Implement additional pages, which will allow the user to Register
+- Implement send and receive data from API
 
-- Implement additional pages, which will allow the user to Login
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
