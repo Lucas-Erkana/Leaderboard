@@ -33,14 +33,12 @@ Project 3:final touches
 # 📖 Project name<a name="about-project"></a> <!---Project title-->
 <table style="border: 2px solid black;">
   <tr>
-    <th style="border: 1px solid black;">Empty List</th>
-    <th style="border: 1px solid black;">Filled List</th>
-     <th style="border: 1px solid black;">Checked List</th>
-     <th style="border: 1px solid black;">Delete List</th>
+    <th style="border: 1px solid black;"Basic Structure<th>
 
+<
   </tr>
   <tr style="border: 2px solid black;">
-  <td style="border: 1px solid black;"><img src="images/leadership.jpg" alt="Basic structure" width="350"  height="200" /></td>
+  <td style="border: 1px solid black;"><img src="images/leadershipBasic.jpg" alt="Basic structure" width="350"  height="200" /></td>
 
   </tr>
 </table>
