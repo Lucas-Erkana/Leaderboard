@@ -38,7 +38,7 @@ Project 3:final touches
 <
   </tr>
   <tr style="border: 2px solid black;">
-  <td style="border: 1px solid black;"><img src="images/leadershipBasic.jpg" alt="Basic structure" width="350"  height="200" /></td>
+  <td style="border: 1px solid black;"><img src="images/leadershipBasic.jpg" alt="Basic structure" width="450"  height="300" /></td>
 
   </tr>
 </table>
