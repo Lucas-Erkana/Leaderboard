@@ -33,7 +33,7 @@ Project 3:final touches
 # 📖 Leaderboard<a name="about-project"></a> <!---Project title-->
 <table style="border: 2px solid black;">
   <tr>
-    <th style="border: 1px solid black;">Basic Structure<th>
+    <th style="border: 1px solid black;">Basic Structure</th>
   </tr>
   <tr style="border: 2px solid black;">
   <td style="border: 1px solid black;"><img src="images/leadershipBasic.jpg" alt="Basic structure" width="550"  height="300" /></td>
