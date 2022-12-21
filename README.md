@@ -32,21 +32,30 @@ Project 3:final touches
 
 # 📖 Leaderboard<a name="about-project"></a> <!---Project title-->
 <table style="border: 2px solid black;">
-  <tr>
-    <th style="border: 1px solid black;">Basic Structure</th>
+  <tr style="border: 2px solid black;">
+  <td>Empty Leaderboard</td>
+  <td style="border: 1px solid black;"><img src="images/LeaderboardEmpty.jpg" alt="Empty Leaderboard" width="550"  height="200" /></td>
+  </tr>
+  <td>Add to Leaderboard</td>
+  <td style="border: 1px solid black;"><img src="images/LeaderboardAdd.jpg" alt="Add to Leaderboard" width="550"  height="200" /></td>
+  </tr>
+    <tr style="border: 2px solid black;">
+  <td>Add second Team to Leaderboard</td>
+  <td style="border: 1px solid black;"><img src="images/LeaderboardAdd2.jpg" alt="Add to Leaderboard" width="550"  height="200" /></td>
   </tr>
   <tr style="border: 2px solid black;">
-  <td style="border: 1px solid black;"><img src="images/leadershipBasic.jpg" alt="Basic structure" width="550"  height="300" /></td>
-
+  <td>Refresh Leaderboard</td>
+  <td style="border: 1px solid black;"><img src="images/LeaderboardRefresh.jpg" alt="Refresh Leaderboard" width="550"  height="200" /></td>
   </tr>
 </table>
 
 Here are some features of the page:
 
 <ul>
-  <li>Type your name</li>
+  <li>Type name of team</li>
   <li>Type your score</li>
   <li>Submit name and score</li>
+  <li>Refresh the page and the data will reapear on under the Scores</li>
 </ul>
 
 
@@ -142,8 +151,9 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- Implement send and receive data from API
-
+- Implement ordering scores in descending order
+- Implement checks to make sure a Name is not entered twice
+- Display an error message when a blank name is enetered
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
