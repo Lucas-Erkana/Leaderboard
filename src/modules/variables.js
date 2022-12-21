@@ -1,1 +1,2 @@
-export const container = document.querySelector('.list-cont');
+const container = document.querySelector('.list-cont');
+export {container }
