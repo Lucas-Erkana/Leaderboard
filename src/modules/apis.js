@@ -1,4 +1,4 @@
-import { container } from './variables.js';
+const container = document.querySelector('.list-cont');
 
 const renderContainer = async (gameLInk) => {
   const res = await fetch(gameLInk);
