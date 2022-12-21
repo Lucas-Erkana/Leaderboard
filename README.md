@@ -34,18 +34,18 @@ Project 3:final touches
 <table style="border: 2px solid black;">
   <tr style="border: 2px solid black;">
   <td>Empty Leaderboard</td>
-  <td style="border: 1px solid black;"><img src="images/LeaderboardEmpty.jpg" alt="Empty Leaderboard" width="550"  height="300" /></td>
+  <td style="border: 1px solid black;"><img src="images/LeaderboardEmpty.jpg" alt="Empty Leaderboard" width="550"  height="200" /></td>
   </tr>
   <td>Add to Leaderboard</td>
-  <td style="border: 1px solid black;"><img src="images/LeaderboardAdd.jpg" alt="Add to Leaderboard" width="550"  height="300" /></td>
+  <td style="border: 1px solid black;"><img src="images/LeaderboardAdd.jpg" alt="Add to Leaderboard" width="550"  height="200" /></td>
   </tr>
     <tr style="border: 2px solid black;">
   <td>Add second Team to Leaderboard</td>
-  <td style="border: 1px solid black;"><img src="images/LeaderboardAdd2.jpg" alt="Add to Leaderboard" width="550"  height="300" /></td>
+  <td style="border: 1px solid black;"><img src="images/LeaderboardAdd2.jpg" alt="Add to Leaderboard" width="550"  height="200" /></td>
   </tr>
   <tr style="border: 2px solid black;">
   <td>Refresh Leaderboard</td>
-  <td style="border: 1px solid black;"><img src="images/LeaderboardRefresh.jpg" alt="Refresh Leaderboard" width="550"  height="300" /></td>
+  <td style="border: 1px solid black;"><img src="images/LeaderboardRefresh.jpg" alt="Refresh Leaderboard" width="550"  height="200" /></td>
   </tr>
 </table>
 
