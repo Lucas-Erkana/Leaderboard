@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Lucas' Leaderboard</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c488aa6c77.js" crossorigin="anonymous"></script>
+    <title>Leaderboard</title>
 <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
 <body>
-  <article class="body-cont">
-    <h1>Leaderboard</h1>
-    <div class="sec-cont">
-      <section class="sec1">
-        <div class="sec1-title">
-          <h3>Recent scores</h3>
-          <button class="ref-btn"><span>Refresh</span></button>
+    <main class="main">
+        <div class="container">
+            <header><h1><i class="fa-solid fa-trophy"></i> Leaderboard</h1> <h2 id="game-heading"></h2></header>
+            
+            <div id="inner-container" class="col-md-12 d-flex space-bwtween align-start">
+                <div class="col-md-6 col-sm-12 columns" id="recent-scores">
+                    <div id="score-header" class="d-flex flex-row space-between">
+                        <h2 class="no-margin box-heading" id="score-heading">Recent scores</h2>
+                        <button id="refresh-btn">Refresh <i class="fa-solid fa-arrows-rotate"></i></button>
+                    </div>
+                    <ul id="scores"></ul>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex flex-column align-start columns" id="add-scores">
+                    <h2 class="no-margin box-heading">Add your score</h2>
+                    <form name="add-score" class="input-form" id="add-score">
+                        <input id="user-name" type="text" placeholder="Name (required)" name="name" required> <br>
+                        <input id="user-score" type="text" placeholder="Score (required)" name="score" required><br>
+                        <div id="msg-box" class="col-md-12"></div>
+                        <button id="submit-btn" type="button">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <ul class='list-cont'>
-            <!-- content  -->
-        </ul>
-        </section>
-        <section class="sec2">
-          <h3>Add your score</h3>
-          <form>
-            <input type="text" id="your-name" placeholder="Your name">
-            <input type="text" id="score" placeholder="Your score">
-            <button id="submit" class="btn-last">Submit</button>
-          </form>
-        </section>
-      </div>
-  </article>
-  <footer></footer>
+    </main>
 </body>
 </html>
