@@ -1,36 +1,70 @@
-import './style.css';
-import { renderContainer, toAddScore } from './modules/apis.js';
+/* eslint-disable no-unused-vars */
 
-let gameIdentity = '';
+import _ from 'lodash';
+import './style.scss';
+import addScore from './modules/add-score.js';
+import renderScores from './modules/render-scores.js';
+import {
+  scoreList,
+  refreshBtn,
+  userName,
+  userScore,
+  submitBtn,
+  theForm,
+  gameName,
+  gameHading,
+  msg,
+} from './modules/globals.js';
+import { emptyMsg, errorMsg, successMsg } from './modules/messages.js';
+import showGameName from './modules/show-game-name.js';
+
+let gameURL = '';
 fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {
-
   method: 'POST',
   headers: {
     'Content-type': 'application/json; charset=UTF-8',
   },
   body: JSON.stringify({
-    name: 'Premier League Pes',
+    name: 'The game is on',
   }),
-}).then((res) => res.json())
-  .then((gameID) => {
-    const response = gameID.result;
-    gameIdentity = response.substring(14, response.lastIndexOf(' '));
+})
+  .then((res) => res.json())
+  .then((game) => {
+    const response = game.result;
+    const gameId = response.substring(14, response.lastIndexOf(' '));
+    gameURL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores`;
   });
 
-const refresh = document.querySelector('.ref-btn');
-
-refresh.addEventListener('click', () => {
-  renderContainer(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameIdentity}/scores`);
+refreshBtn.addEventListener('click', () => {
+  renderScores(gameURL, scoreList);
+  msg.replaceChildren();
 });
 
-const submitscore = document.getElementById('submit');
-const yourName = document.getElementById('your-name');
-const score = document.getElementById('score');
-submitscore.addEventListener('click', (e) => {
+submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  if (yourName.value !== '' && score.value !== '') {
-    submitscore.classList.add('onfocuss');
-    toAddScore(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameIdentity}/scores`, yourName.value, score.value);
-    document.forms[0].reset();
+  if (userName.value !== '' && userScore.value !== '') {
+    addScore(gameURL, userName.value, userScore.value);
+    theForm.reset();
+    successMsg(msg);
+    setTimeout(() => {
+      renderScores(gameURL, scoreList);
+    }, 1000);
+  } else {
+    errorMsg(msg);
   }
 });
+userName.addEventListener('keypress', (event) => {
+  if (event.key === 'Enter') {
+    userScore.focus();
+  }
+});
+userScore.addEventListener('keypress', (event) => {
+  if (event.key === 'Enter') {
+    submitBtn.click();
+    userName.focus();
+  }
+});
+window.onload = () => {
+  emptyMsg(scoreList);
+  showGameName(gameHading, gameName);
+};

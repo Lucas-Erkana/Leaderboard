@@ -1,35 +1,37 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+/* eslint-disable */
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: './src/index.js',
+  mode: "development",
+  entry: "./src/index.js",
+  devtool: "eval-source-map",
   devServer: {
-    static: './dist',
+    static: "./docs",
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      template: "./src/index.html",
     }),
   ],
   output: {
-    filename: '[name].js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: "main.js",
+    path: path.resolve(__dirname, "docs"),
     clean: true,
-  },
-  optimization: {
-    runtimeChunk: 'single',
   },
   module: {
     rules: [
       {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        test: /\.s(a|c)ss$/i,
+        use: [
+          // Creates `style` nodes from JS strings
+          "style-loader",
+          // Translates CSS into CommonJS
+          "css-loader",
+          // Compiles Sass to CSS
+          "sass-loader",
+        ],
       },
     ],
   },
-  mode: 'development',
 };
