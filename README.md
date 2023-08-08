@@ -73,7 +73,7 @@ Here are some features of the page:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Leaderboard live link](https://lucash2022.github.io/Leaderboard/dist/)
+[Leaderboard live link](https://Lucas-Erkana.github.io/Leaderboard/dist/)
 <br>
 
 
@@ -88,7 +88,7 @@ Here are some features of the page:
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone [https://github.com/Lucash2022/Leaderboard.git]
+- On the terminal run this command git clone [https://github.com/Lucas-Erkana/Leaderboard.git]
 
 - Go to the repository folder using command prompt cd Leaderboard
 
@@ -118,7 +118,7 @@ Clone this repository to your desired folder:
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone https://github.com/Lucash2022/Leaderboard.git
+- On the terminal run this command git clone https://github.com/Lucas-Erkana/Leaderboard.git
 
 - Go to the repository folder using command prompt cd Leaderboard
 
@@ -135,7 +135,7 @@ Clone this repository to your desired folder:
 ## 👤**Authors** <a name="authors"></a>
 <h4>Lucas Erkana</h4>
 
-<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Lucash2022)
+<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Lucas-Erkana)
 <br>
 <img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitterhandle](https://twitter.com/@Lucas_David_22)
 <br>
@@ -163,7 +163,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Lucash2022/Leaderboard/issues).
+Feel free to check the [issues page](https://github.com/Lucas-Erkana/Leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
